@@ -6,31 +6,68 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Shopping List</title>
     <link rel="stylesheet" href="css/styles.css"/>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Gluten:wght@900&family=Lilita+One&family=Sniglet:wght@400;800&display=swap');
+      </style>
+
 </head>
 <body>
     <section>
-        <div class="wrapper">
-            <form>
-                <label>Item 1:
-                    <input type="text" class="input" value="" />
+        <div>
+            
+            <p id="title">to-do list</p>
+            <h2 id="subscript">the most helpful list of the day</h2>
+
+            <form id="form">
+
+            <!-- below are the places that the user writes things -->
+                <label>input 1:
+                    <input type="text" class="input" value="" id="a"/>
                 </label>
-                <label>Item 2:
-                    <input type="text" class="input" value="" />
+                <label>input 2:
+                    <input type="text" class="input" value=""  id="b" />
                 </label>
-                <label>Item 3:
-                    <input type="text" class="input" value="" />
+                <label>input 3:
+                    <input type="text" class="input" value="" id="c"/>
                 </label>
-                <label>Item 4:
-                    <input type="text" class="input" value="" />
+                <label>input 4:
+                    <input type="text" class="input" value="" id="d"/>
                 </label>
+
+
                 <div class="wrapper--button">
-                    <button type="button" id="generateList">Make My List</button>
+                    <button type="submit" id="generateList">press here to make list</button>
                 </div>
             </form>
-        </div>
-        <div id="myList" class="wrapper">
+
+            <h1 id="subtitle">list here:</h1>
+
+        <div id="answerCss">
+            <input type="checkbox" class="strike">
+            <label  id="uA">________</label> 
+            <br>
+            <input type="checkbox" class="strike">
+            <label  id="uB">________</label> 
+            <br>
+            <input type="checkbox" class="strike">
+            <label id="uC">________</label> 
+            <br>
+            <input type="checkbox" class="strike">
+            <label id="uD">________</label> 
+
 
         </div>
+
+
+
+
+
+
+
+        <!-- </div>
+        <div id="myList" class="wrapper">
+
+        </div> -->
     </section>
 </body>
 <script src="js/scripts.js"></script>

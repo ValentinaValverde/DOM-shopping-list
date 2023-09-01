@@ -10,9 +10,8 @@ html {
 }
 
 body {
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: 'DM Serif Display', serif;
+  background: #e8eddf
 }
 
 form {
@@ -23,7 +22,12 @@ form {
   font-size: 1.2rem;
   justify-content: space-between;
   padding: 8px;
-}
+  border-radius: 20px;
+  background: #cfdbd5;
+  color: #0f1a20;
+  justify-content: center;
+
+} 
 
 form label {
   display: flex;
@@ -42,7 +46,7 @@ form input {
 }
 
 form button {
-  background-color: #64b448;
+  background-color: #0f1a20;
   border-radius: 6px;
   border: none;
   color: white;
@@ -50,8 +54,10 @@ form button {
   font-size: 1.1rem;
   font-weight: 700;
   padding: 8px 24px;
-  text-transform: uppercase;
   width: 50%;
+  font-family: 'DM Serif Display', serif;
+  color: #e8eddf;
+
 }
 
 .wrapper--button {
@@ -71,7 +77,38 @@ section {
   margin: 1rem auto;
 }
 
-.wrapper {
+/* .wrapper {
   max-width: 60rem;
   margin: 0 auto;
+} */
+
+
+#answerCss{
+  text-align: left;
+  padding-left: 350px;
+}
+
+
+#title{
+  font-size: 50px;
+  text-align: center;
+  padding-top: 20px;
+}
+
+#subscript{
+  text-align: center;
+  font-style: italic;
+  font-size: 20px;
+  padding-bottom: 10px;
+}
+
+#subtitle{
+  font-size: 30px;
+  text-align: center;
+}
+
+
+
+input[type="checkbox"]:checked + label {
+  text-decoration: line-through;
 }
