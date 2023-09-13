@@ -1,5 +1,4 @@
 'use strict';
-'use strict';
 
 const a = document.querySelector('#a');
 const b = document.querySelector('#b');
@@ -12,10 +11,11 @@ const uB = document.querySelector('#uB');
 const uC = document.querySelector('#uC');
 const uD = document.querySelector('#uD');
 
+// const clearForm = document.querySelector('#clearForm');
+
+
 form.addEventListener('submit', function(event){
     event.preventDefault();
-    alert('Fin!')
-
 
     let inputA = a.value;
     uA.innerHTML = inputA;
@@ -33,7 +33,9 @@ form.addEventListener('submit', function(event){
 
 
 
-function clear(){
-    document.querySelectorAll(input) = "";
-}
+
+//this will (hopefully) be used to make another button that will clear the form :)
+// function clear(){
+//     document.querySelectorAll(input) = "";
+// }
 

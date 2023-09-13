@@ -14,13 +14,12 @@ body {
   background: #e8eddf
 }
 
-form {
+#form {
   border: solid 1px silver;
   border-radius: 4px;
   display: flex;
   flex-wrap: wrap;
   font-size: 1.2rem;
-  justify-content: space-between;
   padding: 8px;
   border-radius: 20px;
   background: #cfdbd5;
@@ -28,6 +27,13 @@ form {
   justify-content: center;
 
 } 
+
+#clearForm{
+  padding-top: 40px;
+  text-align: center;
+}
+
+
 
 form label {
   display: flex;
@@ -65,6 +71,7 @@ form button {
   justify-content: center;
   margin: 8px auto;
   width: 100%;
+  padding: 5px;
 }
 
 p {
@@ -85,7 +92,7 @@ section {
 
 #answerCss{
   text-align: left;
-  padding-left: 350px;
+  padding-left: 45%;
 }
 
 
@@ -107,8 +114,36 @@ section {
   text-align: center;
 }
 
-
-
 input[type="checkbox"]:checked + label {
   text-decoration: line-through;
+  transform: scale(1);
+
 }
+
+input[type="checkbox"]{
+  background-color: #fff;
+  margin: 0;
+  width: 20px;
+  height: 20px;
+  place-content: center;
+  accent-color: black;
+
+}
+
+.input{
+  display: block;
+}
+
+.note{
+  font-size: 20px;
+  text-align: center;
+  padding-top: 50px;  
+  font-style: italic;
+}
+
+#beKind{
+  font-size: 20px;
+  text-align: center;
+    font-style: italic;
+}
+

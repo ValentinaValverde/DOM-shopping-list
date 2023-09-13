@@ -13,9 +13,9 @@
 </head>
 <body>
     <section>
+
         <div>
-            
-            <p id="title">to-do list</p>
+            <h1 id="title">to-do list</h1>
             <h2 id="subscript">the most helpful list of the day</h2>
 
             <form id="form">
@@ -34,16 +34,16 @@
                     <input type="text" class="input" value="" id="d"/>
                 </label>
 
-
                 <div class="wrapper--button">
                     <button type="submit" id="generateList">press here to make list</button>
                 </div>
             </form>
 
-            <h1 id="subtitle">list here:</h1>
+
+            <h2 id="subtitle">list here:</h2>
 
         <div id="answerCss">
-            <input type="checkbox" class="strike">
+            <input type="checkbox" class="strike" id="ducky">
             <label  id="uA">________</label> 
             <br>
             <input type="checkbox" class="strike">
@@ -54,20 +54,18 @@
             <br>
             <input type="checkbox" class="strike">
             <label id="uD">________</label> 
-
-
+            <br>
         </div>
 
+        <form id="clearForm">
+            <button type="submit" id="clearButton">clear list</button>
+        </form>
 
 
+        <p class="note">*NOTE: there are only 4 inputs because we believe that you should not overbook and/or overwhelm yourself.</p>
+        <p id="beKind">Be kind to your mind today.</p>
 
 
-
-
-        <!-- </div>
-        <div id="myList" class="wrapper">
-
-        </div> -->
     </section>
 </body>
 <script src="js/scripts.js"></script>
